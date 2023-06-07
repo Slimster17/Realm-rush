@@ -6,7 +6,9 @@ namespace _Scripts
     public class WayPoint : MonoBehaviour
     {
         [SerializeField] private GameObject towerPrefab;
+       
         [SerializeField] private bool isPlaceable;
+        public bool IsPlaceable => isPlaceable;
         
         private void OnMouseDown()
         {

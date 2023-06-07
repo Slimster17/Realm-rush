@@ -12,11 +12,31 @@ namespace _Scripts
         [SerializeField] private List<WayPoint> path = new List<WayPoint>();
         [SerializeField] [Range(0f,5f)] private float speed = 1f;
 
-        private void Start()
+        private void OnEnable()
         {
+            
+            FindPath();
+            ReturnToStart();
             Debug.Log("Start here");
             StartCoroutine(FollowPath());
             Debug.Log("Finishing start");
+        }
+        
+        private void FindPath()
+        {
+            path.Clear();
+            
+            GameObject[] waypoints = GameObject.FindGameObjectsWithTag("Path");
+
+            foreach (GameObject waypoint in waypoints)
+            {
+                path.Add(waypoint.GetComponent<WayPoint>());
+            }
+        }
+
+        private void ReturnToStart()
+        {
+            transform.position = path[0].transform.position;
         }
 
         private IEnumerator FollowPath()
@@ -35,12 +55,12 @@ namespace _Scripts
                     transform.position = Vector3.Lerp(startPosition, endPosition, travelPercent);
                     yield return new WaitForEndOfFrame();
                 }
-                
-
-                
             }
-            
+
+            gameObject.SetActive(false);
         }
+
+       
         
 
     }

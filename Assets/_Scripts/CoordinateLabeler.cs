@@ -6,12 +6,20 @@ namespace _Scripts
     [ExecuteAlways]
     public class CoordinateLabeler : MonoBehaviour
     {
+
+        [SerializeField] private Color defaultColor = Color.white;
+        [SerializeField] private Color blockedColor = Color.gray;
+        
         private TextMeshPro _label;
         private Vector2Int _coordinates = new Vector2Int();
+        private WayPoint _wayPoint;
 
         private void Awake()
         {
+            
+            _wayPoint = GetComponentInParent<WayPoint>();
             _label = GetComponent<TextMeshPro>();
+            _label.enabled = false;
             DisplayCoordinates();
         }
 
@@ -21,6 +29,21 @@ namespace _Scripts
             {
                 DisplayCoordinates();
                 UpdateObjectName();
+            }
+
+            ColorCoordinates();
+            ToggleLabels();
+        }
+
+        private void ColorCoordinates()
+        {
+            if (_wayPoint.IsPlaceable)
+            {
+                _label.color = defaultColor;
+            }
+            else
+            {
+                _label.color = blockedColor;
             }
         }
 
@@ -37,6 +60,15 @@ namespace _Scripts
         private void UpdateObjectName()
         {
             transform.parent.name = _coordinates.ToString();
+        }
+
+        private void ToggleLabels()
+        {
+
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                _label.enabled = !_label.IsActive();
+            }
         }
         
     }
