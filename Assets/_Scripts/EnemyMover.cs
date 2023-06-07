@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
+using Vector3 = UnityEngine.Vector3;
 
 namespace _Scripts
 {
@@ -8,7 +10,7 @@ namespace _Scripts
     {
 
         [SerializeField] private List<WayPoint> path = new List<WayPoint>();
-        [SerializeField] private float waitTime = 1f;
+        [SerializeField] [Range(0f,5f)] private float speed = 1f;
 
         private void Start()
         {
@@ -21,8 +23,21 @@ namespace _Scripts
         {
             foreach (WayPoint wayPoint in path)
             {
-                this.transform.position = wayPoint.transform.position;
-                yield return new WaitForSeconds(waitTime);
+                Vector3 startPosition = transform.position;
+                Vector3 endPosition = wayPoint.transform.position;
+                float travelPercent = 0f;
+                
+                transform.LookAt(endPosition);
+
+                while (travelPercent < 1f)
+                {
+                    travelPercent += Time.deltaTime * speed;
+                    transform.position = Vector3.Lerp(startPosition, endPosition, travelPercent);
+                    yield return new WaitForEndOfFrame();
+                }
+                
+
+                
             }
             
         }
