@@ -41,29 +41,33 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\EnemyHealth.cs" />
-     <Compile Include="Assets\_Scripts\EnemyMover.cs" />
-     <Compile Include="Assets\_Scripts\CoordinateLabeler.cs" />
-     <Compile Include="Assets\_Scripts\TargetLocator.cs" />
-     <Compile Include="Assets\_Scripts\WayPoint.cs" />
-     <Compile Include="Assets\_Scripts\ObjectPool.cs" />
-     <Compile Include="Assets\_Scripts\Enemy.cs" />
-     <Compile Include="Assets\_Scripts\Bank.cs" />
-     <Compile Include="Assets\_Scripts\Tower.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\EnemyHealth.cs" />
+     <Compile Include="Assets\_Scripts\Bank\Bank.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\EnemyMover.cs" />
+     <Compile Include="Assets\_Scripts\Tower\Tower.cs" />
+     <Compile Include="Assets\_Scripts\Tiles\CoordinateLabeler.cs" />
+     <Compile Include="Assets\_Scripts\Tower\TargetLocator.cs" />
+     <Compile Include="Assets\_Scripts\Tiles\WayPoint.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\_Scripts\Enemy\ObjectPool.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\_Scripts\Tower" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <Folder Include="Assets\_Scripts\Tiles" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\_Prefabs" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\VoxelCastle\Models" />
+     <Folder Include="Assets\_Scripts\Bank" />
+     <Folder Include="Assets\_Scripts\Enemy" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\VoxelCastle\Prefabs" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
