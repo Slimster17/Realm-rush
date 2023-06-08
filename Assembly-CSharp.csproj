@@ -41,12 +41,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\_Scripts\EnemyMover.cs" />
      <Compile Include="Assets\_Scripts\CoordinateLabeler.cs" />
      <Compile Include="Assets\_Scripts\TargetLocator.cs" />
      <Compile Include="Assets\_Scripts\WayPoint.cs" />
-     <Compile Include="Assets\_Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\_Scripts\ObjectPool.cs" />
+     <Compile Include="Assets\_Scripts\Enemy.cs" />
+     <Compile Include="Assets\_Scripts\Bank.cs" />
+     <Compile Include="Assets\_Scripts\Tower.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

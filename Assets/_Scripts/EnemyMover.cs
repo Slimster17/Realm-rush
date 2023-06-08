@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Numerics;
@@ -12,6 +13,7 @@ namespace _Scripts
         [SerializeField] private List<WayPoint> path = new List<WayPoint>();
         [SerializeField] [Range(0f,5f)] private float speed = 1f;
 
+        private Enemy _enemy;
         private void OnEnable()
         {
             
@@ -20,8 +22,14 @@ namespace _Scripts
             Debug.Log("Start here");
             StartCoroutine(FollowPath());
             Debug.Log("Finishing start");
+            
         }
-        
+
+        private void Start()
+        {
+            _enemy = GetComponent<Enemy>();
+        }
+
         private void FindPath()
         {
             path.Clear();
@@ -56,8 +64,10 @@ namespace _Scripts
                     yield return new WaitForEndOfFrame();
                 }
             }
-
+            
+            _enemy.StealGoal();
             gameObject.SetActive(false);
+           
         }
 
        

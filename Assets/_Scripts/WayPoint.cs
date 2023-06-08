@@ -5,7 +5,7 @@ namespace _Scripts
 {
     public class WayPoint : MonoBehaviour
     {
-        [SerializeField] private GameObject towerPrefab;
+        [SerializeField] private Tower towerPrefab;
        
         [SerializeField] private bool isPlaceable;
         public bool IsPlaceable => isPlaceable;
@@ -15,9 +15,8 @@ namespace _Scripts
             if (isPlaceable)
             {
                 Debug.Log(transform.name);
-                
-                Instantiate(towerPrefab, transform.position, Quaternion.identity);
-                isPlaceable = false;
+                bool isPlaced =  towerPrefab.CreateTower(towerPrefab,transform.position);
+                isPlaceable = isPlaced;
             }
      
         }
