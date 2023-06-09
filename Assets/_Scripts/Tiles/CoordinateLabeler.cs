@@ -30,6 +30,7 @@ namespace _Scripts
             {
                 DisplayCoordinates();
                 UpdateObjectName();
+                _label.enabled = true;
             }
 
             SetLabelColor();

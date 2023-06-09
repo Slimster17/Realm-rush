@@ -52,11 +52,13 @@
      <Compile Include="Assets\_Scripts\Enemy\ObjectPool.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <Folder Include="Assets\_Prefabs\Environment" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
      <Folder Include="Assets\_Scripts\Tower" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\_Prefabs\UI" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <Folder Include="Assets\_Scripts\Tiles" />
@@ -77,9 +79,11 @@
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\_Prefabs\Tower" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\_Prefabs\Environment\Tiles" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <Folder Include="Assets\_Materials" />
      <Folder Include="Assets\_Scripts" />
@@ -92,6 +96,9 @@
      <Folder Include="Assets\VoxelCastle" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\VoxelCastle\Models\Materials" />
+     <Folder Include="Assets\_Prefabs\Bank" />
+     <Folder Include="Assets\_Prefabs\Enemy" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
