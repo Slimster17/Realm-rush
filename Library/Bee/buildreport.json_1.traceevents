@@ -1,0 +1,504 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686303433965023, "dur": 1651126, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686303433965047, "dur": 6227, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686303433971278, "dur": 32281, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686303434003561, "dur": 254986, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686303434258548, "dur": 1346430, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686303435604981, "dur": 11167, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686303435616788, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686303434091957, "dur": 142358, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686303434092875, "dur": 43047, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686303434218206, "dur": 4500, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686303434222709, "dur": 11572, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686303434223542, "dur": 9860, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686303434239717, "dur": 1318, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686303434238837, "dur": 2229, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686303435618303, "dur": 2904, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686303434298420, "dur":1843, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303434300271, "dur":48, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686303434300330, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686303434300344, "dur":296, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686303434300671, "dur":731, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303434301402, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435590844, "dur":217, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591062, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591075, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591077, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591084, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591086, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591091, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591092, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591098, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591099, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591106, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591107, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591112, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591114, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591119, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591120, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591126, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591143, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435591165, "dur":1837, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686303434300937, "dur":484, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434301424, "dur":4396, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434305833, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686303434305841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434307141, "dur":341, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686303434307488, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686303434307553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434308074, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686303434310749, "dur":17067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686303434327820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434327827, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686303434329680, "dur":101564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686303434431250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434431259, "dur":6005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686303434437300, "dur":30606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434467911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434467920, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434469073, "dur":23173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434492252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434492260, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434493376, "dur":40026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434533407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434533416, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434534738, "dur":23923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434558666, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434558686, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434559666, "dur":46208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434605879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434605888, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434607095, "dur":57654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434664755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434664764, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434665925, "dur":17870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434683801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434683808, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434684894, "dur":20229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434705127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434705134, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434707850, "dur":55112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434762967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434762976, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434764125, "dur":19007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434783138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434783147, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434785021, "dur":78414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434863440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303434863449, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303434864632, "dur":162602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303435027239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303435027248, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303435028654, "dur":154113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303435182772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303435182782, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303435184576, "dur":236949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303435421530, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686303435421540, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686303435423813, "dur":167045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303434300985, "dur":450, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303434301435, "dur":4389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303434305834, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686303434306026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303434312011, "dur":1612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686303434313666, "dur":14016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686303434327689, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303434327700, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1686303434329671, "dur":587064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303434916740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303434916748, "dur":26765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303434943554, "dur":16935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1686303434960494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303434960503, "dur":12672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1686303434973207, "dur":137919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435111131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303435111139, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435112354, "dur":35347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435147706, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303435147716, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435148891, "dur":36293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435185213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303435185224, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435186512, "dur":178741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435365258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303435365266, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435367280, "dur":32440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435399725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686303435399735, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686303435401254, "dur":189603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434300976, "dur":452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434301428, "dur":4397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434305834, "dur":10033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686303434315871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434315952, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1686303434317453, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686303434317701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434318211, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686303434320286, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1686303434320385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434320391, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1686303434323275, "dur":120310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434443590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434443686, "dur":4369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434448101, "dur":34074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434482180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434482189, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434483743, "dur":94322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434578069, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434578078, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434579267, "dur":50803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434630075, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434630085, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434631296, "dur":45027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434676327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434676336, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434677516, "dur":25514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434703036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434703045, "dur":14840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434717923, "dur":66003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434783932, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434783941, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434785980, "dur":28919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434814904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434814913, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434816167, "dur":19799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434835971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434835979, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434837021, "dur":57829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434894855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434894864, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303434895890, "dur":12008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686303434907903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303434907913, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686303434909075, "dur":98016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435007096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435007104, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435008693, "dur":74509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435083206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435083214, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435084234, "dur":105868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435190107, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435190123, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435192165, "dur":43083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435235253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435235262, "dur":1058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435236356, "dur":124155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435360517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435360526, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686303435362379, "dur":5870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686303435368254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435368263, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1686303435369513, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686303435369553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435369591, "dur":2109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686303435371735, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686303435371770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435371776, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686303435373379, "dur":914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686303435374298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435374306, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1686303435375464, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686303435375499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435375505, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686303435376670, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686303435376702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435376707, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1686303435378070, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686303435378108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435378114, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1686303435379857, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686303435379992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686303435380000, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686303435380952, "dur":209888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434301016, "dur":425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434301441, "dur":4386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434305834, "dur":13201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686303434319040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434319058, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686303434320216, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686303434320380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434320625, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686303434322986, "dur":56567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434379560, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434381969, "dur":18441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434400763, "dur":42476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434443246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434443254, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434445023, "dur":72511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434517540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434517548, "dur":5401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434522985, "dur":7521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686303434530512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434530521, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686303434531904, "dur":169544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434701451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434701461, "dur":3658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434705152, "dur":36338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434741496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434741504, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434744031, "dur":20421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434764455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434764461, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434765499, "dur":20427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434785930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434785938, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434787620, "dur":54060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434841685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434841694, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434842931, "dur":35299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434878235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434878244, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434879574, "dur":5666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686303434885245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434885254, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686303434886244, "dur":63594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434949843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434949851, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303434952573, "dur":5577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686303434958178, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303434958187, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1686303434959461, "dur":248979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303435208445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303435208454, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303435209730, "dur":157375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303435367110, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303435367119, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686303435369527, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686303435369563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303435369568, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686303435371852, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1686303435371995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303435372001, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1686303435374604, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686303435374640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303435374647, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686303435376546, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686303435376581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303435376587, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686303435378012, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686303435378195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686303435378200, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1686303435380468, "dur":210374, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434301048, "dur":400, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434301449, "dur":4382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434305833, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686303434306026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434311746, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1686303434313585, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686303434313911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434314164, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686303434315897, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686303434316018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434316025, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686303434320172, "dur":20162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686303434340341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434340353, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686303434345124, "dur":37706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686303434382836, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434382845, "dur":18341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush.exe" }}
+,{ "pid":12345, "tid":5, "ts":1686303434401228, "dur":62671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434463905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434463913, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434465026, "dur":18828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434483858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434483867, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434486611, "dur":17007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434503623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434503632, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434505785, "dur":157375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434663192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434663201, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434665068, "dur":37052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434702125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434702134, "dur":6185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434708354, "dur":25317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434733700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434733708, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434736115, "dur":28203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434764324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434764357, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434765636, "dur":17946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434783587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434783596, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434785722, "dur":24377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434810104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434810113, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434812435, "dur":35292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434847759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434847767, "dur":2529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434850370, "dur":45588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434895991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303434895998, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303434897101, "dur":121088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303435018195, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303435018209, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303435019876, "dur":273414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303435293296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303435293304, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303435294819, "dur":293013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303435587837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686303435587845, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686303435590810, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1686303435590813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434301082, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434301454, "dur":4369, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434305834, "dur":43655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686303434349495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434349878, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686303434351058, "dur":81913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434432977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434432985, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434434310, "dur":44683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434478999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434479008, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434480403, "dur":17420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434497828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434497836, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434499155, "dur":77256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434576416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434576425, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434577541, "dur":101359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434678925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434678934, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434680433, "dur":68269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434748707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434748716, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434749950, "dur":53771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434803751, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434803762, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434805447, "dur":184000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434989452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303434989461, "dur":5692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303434995192, "dur":285033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303435280230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303435280239, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303435283948, "dur":39824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303435323777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303435323786, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303435324998, "dur":245545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303435570549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686303435570557, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686303435571628, "dur":19213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434301111, "dur":348, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434301459, "dur":4370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434305834, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1686303434306049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434318423, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1686303434320201, "dur":24757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1686303434344962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434344972, "dur":2940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1686303434347957, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1686303434348110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434348659, "dur":33767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1686303434382468, "dur":26028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434408501, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434408613, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434409672, "dur":35614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434445294, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434445306, "dur":3917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434449257, "dur":19540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434468804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434468814, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434469747, "dur":71594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434541347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434541389, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434542449, "dur":69001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434611455, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434611466, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434612990, "dur":58752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434671747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434671757, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434673167, "dur":20828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434694001, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434694010, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434695363, "dur":35976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434731345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434731354, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434734039, "dur":18496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434752541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434752550, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434753594, "dur":117690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434871286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434871292, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434872528, "dur":31835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434904369, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434904377, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303434906201, "dur":41333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686303434947539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303434947548, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1686303434949188, "dur":91574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303435040793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303435040802, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303435042055, "dur":94057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303435136117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303435136125, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303435137165, "dur":112457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303435249627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303435249636, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303435251441, "dur":129997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303435381445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686303435381454, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686303435382952, "dur":207887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434301143, "dur":322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434301465, "dur":4362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434305834, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1686303434306029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434317612, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1686303434320184, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1686303434320451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434320521, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1686303434322198, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1686303434322337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434322347, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1686303434324390, "dur":37310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434361706, "dur":146, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434361860, "dur":5544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434367447, "dur":21681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434389133, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434394762, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434399923, "dur":41980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434441909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434441917, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434443010, "dur":255919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434698935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434698945, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434701370, "dur":17449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434718824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434718832, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434719812, "dur":41435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434761253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434761263, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434762792, "dur":26470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434789267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434789275, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434791130, "dur":18242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434809378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434809387, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434811945, "dur":30572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434842522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434842698, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434845422, "dur":25767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434871194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434871203, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434872526, "dur":51916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434924450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303434924462, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303434927332, "dur":88014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303435015351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303435015360, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303435016713, "dur":139717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303435156436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303435156446, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303435158162, "dur":308586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303435466752, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686303435466765, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/narse/Desktop/rty/Realm Rush_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686303435468149, "dur":122713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686303435594779, "dur":2148, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686303435621332, "dur": 661, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686303435616778, "dur": 5237, "ph": "X", "name": "Write chrome-trace events", "args": {} },

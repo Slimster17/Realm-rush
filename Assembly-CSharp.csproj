@@ -44,12 +44,15 @@
      <Compile Include="Assets\_Scripts\Enemy\EnemyHealth.cs" />
      <Compile Include="Assets\_Scripts\Bank\Bank.cs" />
      <Compile Include="Assets\_Scripts\Enemy\EnemyMover.cs" />
+     <Compile Include="Assets\_Scripts\PathFinding\Node.cs" />
      <Compile Include="Assets\_Scripts\Tower\Tower.cs" />
      <Compile Include="Assets\_Scripts\Tiles\CoordinateLabeler.cs" />
+     <Compile Include="Assets\_Scripts\PathFinding\GridManager.cs" />
      <Compile Include="Assets\_Scripts\Tower\TargetLocator.cs" />
      <Compile Include="Assets\_Scripts\Tiles\WayPoint.cs" />
      <Compile Include="Assets\_Scripts\Enemy\Enemy.cs" />
      <Compile Include="Assets\_Scripts\Enemy\ObjectPool.cs" />
+     <Compile Include="Assets\_Scripts\PathFinding\PathFinder.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\_Prefabs\Environment" />
@@ -77,6 +80,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets\_Scripts\PathFinding" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\_Prefabs\Tower" />

@@ -11,14 +11,19 @@ namespace _Scripts
         [SerializeField] private Color defaultColor = Color.white;
         [SerializeField] private Color blockedColor = Color.gray;
         
+        [SerializeField] private Color exploredColor = Color.yellow;
+        [SerializeField] private Color pathColor = new Color(1f,0.5f,0f);
+        
         private TextMeshPro _label;
         private Vector2Int _coordinates = new Vector2Int();
-        private WayPoint _wayPoint;
+
+        private GridManager _gridManager;
+       
 
         private void Awake()
         {
+            _gridManager = FindObjectOfType<GridManager>();
             
-            _wayPoint = GetComponentInParent<WayPoint>();
             _label = GetComponent<TextMeshPro>();
             _label.enabled = false;
             DisplayCoordinates();
@@ -39,13 +44,34 @@ namespace _Scripts
 
         private void SetLabelColor()
         {
-            if (_wayPoint.IsPlaceable)
+            if (_gridManager == null)
             {
-                _label.color = defaultColor;
+                return;
+            }
+
+            Node node = _gridManager.GetNode(_coordinates);
+
+            if (node == null)
+            {
+                return;
+            }
+
+            if (!node.isWalkable)
+            {
+                _label.color = blockedColor;
+            }
+            else if (node.isPath)
+            {
+                _label.color = pathColor;
+                
+            }
+            else if (node.isExplored)
+            {
+                _label.color = exploredColor;
             }
             else
             {
-                _label.color = blockedColor;
+                _label.color = defaultColor;
             }
         }
 

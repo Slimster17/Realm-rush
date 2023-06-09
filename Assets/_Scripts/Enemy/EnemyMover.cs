@@ -20,9 +20,9 @@ namespace _Scripts
             
             FindPath();
             ReturnToStart();
-            Debug.Log("Start here");
+            // Debug.Log("Start here");
             StartCoroutine(FollowPath());
-            Debug.Log("Finishing start");
+            // Debug.Log("Finishing start");
             
         }
 
