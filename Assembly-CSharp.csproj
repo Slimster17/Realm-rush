@@ -53,6 +53,8 @@
      <Compile Include="Assets\_Scripts\Tiles\Tile.cs" />
      <Compile Include="Assets\_Scripts\Enemy\Enemy.cs" />
      <Compile Include="Assets\_Scripts\Enemy\ObjectPool.cs" />
+     <Compile Include="Assets\_Scripts\Sounds\MusicPlayer.cs" />
+     <Compile Include="Assets\_Scripts\Tower\TowerSounds.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\_Prefabs\Environment" />
@@ -61,6 +63,7 @@
      <Folder Include="Assets\_Scripts\Tower" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\_PostProcessing" />
      <Folder Include="Assets\_Prefabs\UI" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
@@ -68,12 +71,14 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\_Prefabs\Environment\Trees" />
+     <Folder Include="Assets\_Scripts\Sounds" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets\_Prefabs" />
      <Folder Include="Assets\TextMesh Pro" />
      <Folder Include="Assets\VoxelCastle\Models" />
      <Folder Include="Assets\_Scripts\Bank" />
      <Folder Include="Assets\_Scripts\Enemy" />
+     <Folder Include="Assets\_Sounds" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\VoxelCastle\Prefabs" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -735,6 +740,9 @@
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Postprocessing.Runtime">
+     <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
@@ -771,8 +779,8 @@
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
      <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <Reference Include="Unity.Postprocessing.Editor">
+     <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -789,6 +797,9 @@
      <Reference Include="UnityEngine.UI">
      <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
@@ -797,12 +808,6 @@
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Editor">
-     <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Postprocessing.Runtime">
-     <HintPath>C:\ABC\Unity\Realm Rush\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

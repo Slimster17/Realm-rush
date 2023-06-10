@@ -358,10 +358,12 @@
 "Assets/_Scripts/PathFinding/GridManager.cs"
 "Assets/_Scripts/PathFinding/Node.cs"
 "Assets/_Scripts/PathFinding/PathFinder.cs"
+"Assets/_Scripts/Sounds/MusicPlayer.cs"
 "Assets/_Scripts/Tiles/CoordinateLabeler.cs"
 "Assets/_Scripts/Tiles/Tile.cs"
 "Assets/_Scripts/Tower/TargetLocator.cs"
 "Assets/_Scripts/Tower/Tower.cs"
+"Assets/_Scripts/Tower/TowerSounds.cs"
 -langversion:9.0
 
 /deterministic
