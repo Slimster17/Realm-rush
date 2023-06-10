@@ -11,47 +11,55 @@ namespace _Scripts
     public class EnemyMover : MonoBehaviour
     {
 
-        [SerializeField] private List<Tile> path = new List<Tile>();
+      
         [SerializeField] [Range(0f,5f)] private float speed = 1f;
 
+        private List<Node> _path = new List<Node>();
         private Enemy _enemy;
+        private GridManager _gridManager;
+        private PathFinder _pathFinder;
         private void OnEnable()
         {
-            
-            FindPath();
             ReturnToStart();
+            RecalculatePath(true);
             // Debug.Log("Start here");
-            StartCoroutine(FollowPath());
+           
             // Debug.Log("Finishing start");
             
         }
 
-        private void Start()
+        private void Awake()
         {
             _enemy = GetComponent<Enemy>();
+            _gridManager = FindObjectOfType<GridManager>();
+            _pathFinder = FindObjectOfType<PathFinder>();
         }
 
-        private void FindPath()
+        private void RecalculatePath(bool resetPath)
         {
-            path.Clear();
-            
-            GameObject parent = GameObject.FindGameObjectWithTag("Path");
+            Vector2Int coordinates = new Vector2Int();
 
-            foreach (Transform child in parent.transform)
+            if (resetPath)
             {
-                Tile tile = child.GetComponent<Tile>();
-                
-                if (tile != null)
-                {
-                    path.Add(tile);
-                }
-                
+                coordinates = _pathFinder.StartCoordinates;
             }
+            else
+            {
+                coordinates = _gridManager.GetCoordinatesFromPosition(transform.position);
+            }
+            
+            StopAllCoroutines();
+            
+            _path.Clear();
+
+            _path = _pathFinder.GetNewPath(coordinates);
+            
+            StartCoroutine(FollowPath());
         }
 
         private void ReturnToStart()
         {
-            transform.position = path[0].transform.position;
+            transform.position = _gridManager.GetPositionFromCoordinates(_pathFinder.StartCoordinates);
         }
         
         private void FinishPath()
@@ -62,10 +70,10 @@ namespace _Scripts
 
         private IEnumerator FollowPath()
         {
-            foreach (Tile wayPoint in path)
+            for (int i = 1; i < _path.Count; i ++)
             {
                 Vector3 startPosition = transform.position;
-                Vector3 endPosition = wayPoint.transform.position;
+                Vector3 endPosition = _gridManager.GetPositionFromCoordinates(_path[i].coordinates);
                 float travelPercent = 0f;
                 
                 transform.LookAt(endPosition);

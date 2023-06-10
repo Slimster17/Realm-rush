@@ -39,10 +39,13 @@ namespace _Scripts
         {
             if (_gridManager.GetNode(_coordinates).isWalkable && !_pathFinder.WillBlockPath(_coordinates))
             {
-                Debug.Log(transform.name);
-                bool isPlaced =  towerPrefab.CreateTower(towerPrefab,transform.position);
-                isPlaceable = isPlaced;
-                _gridManager.BlockNode(_coordinates);
+                bool isSuccessful =  towerPrefab.CreateTower(towerPrefab,transform.position);
+                if (isSuccessful)
+                {
+                    _gridManager.BlockNode(_coordinates);
+                    _pathFinder.NotifyReceivers();
+                }
+                
             }
      
         }

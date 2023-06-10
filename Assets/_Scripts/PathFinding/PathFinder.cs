@@ -27,12 +27,24 @@ namespace _Scripts
         private Dictionary<Vector2Int, Node> _grid = new Dictionary<Vector2Int, Node>();
 
 
+        public Vector2Int StartCoordinates
+        {
+            get { return startCoordinates; }
+        }
+
+        public Vector2Int DestinationCoordinates
+        {
+            get { return destinationCoordinates; }
+        }
         private void Awake()
         {
             _gridManager = FindObjectOfType<GridManager>();
             if (_gridManager != null)
             {
                 _grid = _gridManager.Grid;
+                _startNode = _grid[startCoordinates];
+                _destinationNode = _grid[destinationCoordinates];
+                
             }
 
             
@@ -41,17 +53,18 @@ namespace _Scripts
 
         void Start()
         {
-            _startNode = _gridManager.Grid[startCoordinates];
-            _destinationNode = _gridManager.Grid[destinationCoordinates];
-
             GetNewPath();
-
         }
 
         public List<Node> GetNewPath()
         {
+            return (GetNewPath(startCoordinates));
+        }
+
+        public List<Node> GetNewPath(Vector2Int coordinates)
+        {
             _gridManager.ResetNodes();
-            BreadthFirstSearch();
+            BreadthFirstSearch(coordinates);
             return BuildPath();
         }
 
@@ -84,15 +97,18 @@ namespace _Scripts
         }
 
 
-        private void BreadthFirstSearch()
+        private void BreadthFirstSearch(Vector2Int coordinates)
         {
+            _startNode.isWalkable = true;
+            _destinationNode.isWalkable = true;
+            
             _frontier.Clear();
             _reached.Clear();
             
             bool isRunning = true;
             
-            _frontier.Enqueue(_startNode);
-            _reached.Add(startCoordinates,_startNode);
+            _frontier.Enqueue(_grid[coordinates]);
+            _reached.Add(coordinates, _grid[coordinates]);
 
             while (_frontier.Count > 0 && isRunning == true)
             {
@@ -146,6 +162,11 @@ namespace _Scripts
             }
 
             return false;
+        }
+
+        public void NotifyReceivers()
+        {
+            BroadcastMessage("RecalculatePath",false, SendMessageOptions.DontRequireReceiver);
         }
         
     }
