@@ -43,9 +43,16 @@ namespace _Scripts
         {
             _startNode = _gridManager.Grid[startCoordinates];
             _destinationNode = _gridManager.Grid[destinationCoordinates];
-            
+
+            GetNewPath();
+
+        }
+
+        public List<Node> GetNewPath()
+        {
+            _gridManager.ResetNodes();
             BreadthFirstSearch();
-            BuildPath();
+            return BuildPath();
         }
 
         private void ExploreNeighbors()
@@ -79,6 +86,9 @@ namespace _Scripts
 
         private void BreadthFirstSearch()
         {
+            _frontier.Clear();
+            _reached.Clear();
+            
             bool isRunning = true;
             
             _frontier.Enqueue(_startNode);
@@ -115,5 +125,28 @@ namespace _Scripts
             path.Reverse();
             return path;
         }
+
+        public bool WillBlockPath(Vector2Int coordinates)
+        {
+            if (_grid.ContainsKey(coordinates))
+            {
+
+                bool previusState = _grid[coordinates].isWalkable;
+                _grid[coordinates].isWalkable = false;
+                List<Node> newPath = GetNewPath();
+                _grid[coordinates].isWalkable = previusState;
+
+                if (newPath.Count <= 1)
+                {
+                    GetNewPath();
+                    return true;
+                }
+
+                return false;
+            }
+
+            return false;
+        }
+        
     }
 }

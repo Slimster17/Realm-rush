@@ -77,10 +77,17 @@ namespace _Scripts
 
         private void DisplayCoordinates()
         {
+
+            if (_gridManager == null)
+            {
+                return;
+                
+            }
+            
             var position = transform.parent.position;
             
-            _coordinates.x = Mathf.RoundToInt(position.x / UnityEditor.EditorSnapSettings.move.x);
-            _coordinates.y = Mathf.RoundToInt(position.z / UnityEditor.EditorSnapSettings.move.z);
+            _coordinates.x = Mathf.RoundToInt(position.x / _gridManager.UnityGridSize);
+            _coordinates.y = Mathf.RoundToInt(position.z / _gridManager.UnityGridSize);
             
             _label.text = $"{_coordinates.x}, {_coordinates.y}";
         }

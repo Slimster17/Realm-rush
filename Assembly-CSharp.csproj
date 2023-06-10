@@ -49,10 +49,10 @@
      <Compile Include="Assets\_Scripts\Tiles\CoordinateLabeler.cs" />
      <Compile Include="Assets\_Scripts\PathFinding\GridManager.cs" />
      <Compile Include="Assets\_Scripts\Tower\TargetLocator.cs" />
-     <Compile Include="Assets\_Scripts\Tiles\WayPoint.cs" />
+     <Compile Include="Assets\_Scripts\PathFinding\PathFinder.cs" />
+     <Compile Include="Assets\_Scripts\Tiles\Tile.cs" />
      <Compile Include="Assets\_Scripts\Enemy\Enemy.cs" />
      <Compile Include="Assets\_Scripts\Enemy\ObjectPool.cs" />
-     <Compile Include="Assets\_Scripts\PathFinding\PathFinder.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\_Prefabs\Environment" />
